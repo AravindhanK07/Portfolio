@@ -1,0 +1,42 @@
+.section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  cursor: pointer;
+}
+
+.social-media-icons .svg-inline--fa {
+  margin: 0 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.social-media-icons .svg-inline--fa:hover {
+  color: #4ef6fc;
+}
+
+.Profileimg,
+.tech-logo {
+  transition: transform 1s ease;
+}
+
+.Profileimg:hover,
+.tech-logo:hover {
+  transform: scale(1.1);
+}
+
+.proj {
+  transition: 1s ease;
+}
+
+.proj:hover {
+  scale: 1.1;
+}
+
+.proj-details {
+  font-size: clamp(10px, 2vw, 16px);
+}
